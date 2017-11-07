@@ -98,6 +98,12 @@ div#container > h3 > a{
 
 h1{
   transition-duration: .3s;
+  color: #D830D5;
+  font-size: 39px;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Comfortaa', cursive;
+
+
 }
 h3 {
   transition-duration: .3s;
@@ -159,6 +165,35 @@ div#footer > h3 {
 }
 
 @-webkit-keyframes t1animation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(9px);
+    }
+
+    100% {
+        transform: translateX(-9px);
+    }
+}
+
+@-moz-keyframes t1animation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(9px);
+    }
+
+    100% {
+        transform: translateX(-9px);
+    }
+}
+
+
+@-o-keyframes t1animation {
     0% {
         transform: translateX(0px);
     }
