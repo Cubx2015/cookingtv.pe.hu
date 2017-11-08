@@ -1,0 +1,21 @@
+#diapo {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  transition-duration: .40s;
+}
+
+#diapo>img {
+  position: absolute;
+  transition-duration: .40s;
+  top: 59px;
+}
+
+img.slides {
+  height: 60em;
+  transition-duration: .40s;
+  z-index: 0;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
