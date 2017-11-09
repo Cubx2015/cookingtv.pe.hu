@@ -5,17 +5,6 @@ body, html {
   height: 100%;
 }
 
-#info {
-				position: absolute;
-				top: 10px;
-				width: 100%;
-				text-align: center;
-				z-index: 100;
-				display:block;
-}
-
-#info a, .button { color: #f00; font-weight: bold; text-decoration: underline; cursor: pointer }
-
 h1, h2, h3, h4 {
   transition-duration: .3s;
   font-size: 100%;
@@ -125,16 +114,29 @@ div#footer > h3 {
 }
 
 #t1 {
-  margin-left: 45%;
+  margin-left: 44%;
   font-size: 40px;
   font-family: 'Acme', sans-serif;
 }
 
-#t2 {}
+#t2 {
+  font-family: 'Pacifico', cursive;
+  color: #7f8c8d;
+  text-align: center;
+  border: none;
+}
+
+#t3 {
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+}
+
 
 #recipe {
   color: #e74c3c;
-  margin-left: 45%;
+  text-align: center;
   font-size: 40px;
   font-family: 'Acme', sans-serif;
 }
@@ -143,7 +145,7 @@ div#footer > h3 {
 
 #ingredients {
   color: #d35400;
-  margin-left: 47%;
+  text-align: center;
   font-size: 30px;
   font-family: 'Acme', sans-serif;
 }
@@ -155,7 +157,7 @@ div#footer > h3 {
 
 #directions {
   color: #d35400;
-  margin-left: 47%;
+  text-align: center;
   font-size: 30px;
   font-family: 'Acme', sans-serif;
 }
