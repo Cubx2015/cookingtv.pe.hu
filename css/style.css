@@ -13,9 +13,6 @@ h1, h2, h3, h4 {
 div, a {
   text-decoration: none;
 }
-
-
-
 ::-webkit-selection {
     color: #fff;
     background: #78ab4e;
@@ -39,7 +36,7 @@ div, a {
   top: 0;
   left: 0;
   right: 0;
-  height: 66px;
+  height: 77px;
   width: 100%;
   z-index: 1000;
   color: #6d7a8b;
@@ -50,30 +47,22 @@ div, a {
 }
 
 .topbar:hover {
-   -webkit-transform: scale(3.05);
-   -moz-transform: scale(3.05);
-   -o-transform: scale(3.05);
-   -ms-transform: scale(3.05);
-   transform: scale(3.05);
-   box-shadow: 1px 11px 15px 10px rgba(0,0,0,0.4);
+   box-shadow: 0px 5px 28px 0px #91917A;
    opacity: 1;
-   top: 58px
 }
-
-body > header > a {
-    text-decoration: none;
-    color: #6d7a8b;
-    display: block;
-    transition-duration: .40s;
-    animation: t1animation .1s linear alternate infinite;
-    -webkit-animation: t1animation .1s linear alternate infinite;
-    -moz-animation: t1animation .1s linear alternate infinite;
-    -o-animation: t1animation .1s linear alternate infinite;
-    -ms-animation: t1animation .1s linear alternate infinite;
-}
-
-body > header > a:hover {
-  display: inline;
+div#favicon {
+  position: absolute;
+  top: 0px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 14px;
+  background-color: #f39c12;
+  width: 66px;
+  height: 72px;
+  float: left;
+  display: block;
+  text-align: center;
+  animation-duration: .3s;
 }
 
 div#container {
@@ -85,157 +74,72 @@ div#container {
   margin: 0 auto;
   border-radius: 4px;
   border: 1px solid #bbb;
-
 }
-
-div#container > h3 > a{
+h1#t1 {
+  margin-top: 1.5px;
+  text-align: center;
+  display: block;
+  font-family: 'Acme', sans-serif;
   text-decoration: none;
-  margin-top: 80px;
-  margin-bottom: -1px;
-  color: #86A6DF;
-  font-size: 50px;
+  color: #6d7a8b;
+  transition-duration: .40s;
+  font-size: 4em;
   cursor: alias;
 }
-
-
-
-div#footer > h3 {
-  margin-top: -10px;
-  color: RGBA(0,0,0,0.4);
+#t1:hover {
 }
-
-#footer {
-  position: relative;
-  top: 800px;
-  padding: 25px 0;
-  font-size: .9em;
-  background-color: #f9f9f9;
-  border-top: 3px solid  #ececec;
-}
-
-#t1 {
-  margin-left: 44%;
-  font-size: 40px;
-  font-family: 'Acme', sans-serif;
-}
-
 #t2 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive; 
   color: #7f8c8d;
   text-align: center;
   border: none;
 }
-
 #t3 {
   font-family: 'Lobster Two', cursive;
   text-align: center;
   border: none;
-  text-decoration: none;
+  font-size: 50px;
+  cursor: alias;
+  color: #3498db;
 }
-
-
 #recipe {
   color: #e74c3c;
   text-align: center;
   font-size: 40px;
   font-family: 'Acme', sans-serif;
 }
-
-
-
 #ingredients {
   color: #d35400;
   text-align: center;
   font-size: 30px;
   font-family: 'Acme', sans-serif;
 }
-
 #txt1 {
   font-family: 'Dancing Script', cursive;
   font-size: 25px;
 }
-
 #directions {
   color: #d35400;
   text-align: center;
   font-size: 30px;
   font-family: 'Acme', sans-serif;
 }
-
 #txt2 {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
 }
-
-
-/* @keyframes  */
-
-@keyframes t1animation {
-    0% {
-        transform: translateX(0px);
-    }
-
-    50% {
-        transform: translateX(9px);
-    }
-
-    100% {
-        transform: translateX(-9px);
-    }
+#footer {
+  position: relative;
+  top: 800px;
+  width: 100%;
+  padding: 25px 0;
+  font-size: .9em;
+  background-color: #f9f9f9;
+  border-top: 3px solid  #ececec;
 }
-
-@-webkit-keyframes t1animation {
-    0% {
-        transform: translateX(0px);
-    }
-
-    50% {
-        transform: translateX(9px);
-    }
-
-    100% {
-        transform: translateX(-9px);
-    }
-}
-
-@-moz-keyframes t1animation {
-    0% {
-        transform: translateX(0px);
-    }
-
-    50% {
-        transform: translateX(9px);
-    }
-
-    100% {
-        transform: translateX(-9px);
-    }
-}
-
-@-o-keyframes t1animation {
-    0% {
-        transform: translateX(0px);
-    }
-
-    50% {
-        transform: translateX(9px);
-    }
-
-    100% {
-        transform: translateX(-9px);
-    }
-}
-
-@-ms-keyframes t1animation {
-    0% {
-        transform: translateX(0px);
-    }
-
-    50% {
-        transform: translateX(9px);
-    }
-
-    100% {
-        transform: translateX(-9px);
-    }
+h3#author {
+  margin-left: 10px;
+  margin-top: -4px;
+  color: #95a5a6;
+  font-family: 'Lobster Two', cursive;
 }
