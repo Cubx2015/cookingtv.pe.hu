@@ -31,7 +31,7 @@ div, a {
     text-shadow: none
 }
 
-.topbar {
+header.topbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -44,6 +44,7 @@ div, a {
   backface-visibility: hidden;
   box-shadow: 0 2px 10px rgba(109,122,139,.1);
   transition-duration: .40s;
+  border-bottom: 0.1px solid black;
 }
 
 .topbar:hover {
@@ -56,13 +57,19 @@ div#favicon {
   padding-top: 5px;
   padding-left: 15px;
   padding-right: 14px;
-  background-color: #f39c12;
+  background-color: #16a085;
   width: 66px;
-  height: 72px;
+  height: 72.1px;
   float: left;
   display: block;
   text-align: center;
   animation-duration: .3s;
+}
+
+div#favicon:focus, div#favion:hover {
+  background-color: #95a5a6;
+  outline: none;
+
 }
 
 div#container {

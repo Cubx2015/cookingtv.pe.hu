@@ -13,7 +13,7 @@
 }
 
 img.slides {
-  height: 60em;
+  height: 50em;
   transition-duration: .40s;
   z-index: 0;
   opacity: 0.4;
