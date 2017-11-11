@@ -1,8 +1,4 @@
-$(document).ready(function() {
-	$(function() {
-		
+$(document).ready(function () { 
 
-
-	});
-	//$('body').animate({scrollTop : '800px'},5000);
+    
 });
