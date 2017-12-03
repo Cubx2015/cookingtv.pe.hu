@@ -124,6 +124,7 @@ span#t1 {
 }
 #ingredients {
   color: #d35400;
+  margin-left: -11em;
   text-align: center;
   font-size: 30px;
   margin-top: -10px;
@@ -134,11 +135,14 @@ span#t1 {
   font-size: 25px;
   margin-left: 20%;
 }
+
+.add {margin-right: 12px; top: 5px; position: relative;}
+
 #directions {
   color: #d35400;
   text-align: center;
   font-size: 30px;
-    margin-top: -10px;
+  margin-top: -10px;
   font-family: 'Acme', sans-serif;
 }
 #txt2 {
@@ -147,6 +151,15 @@ span#t1 {
   margin-left: 9%;
 }
 
+hr {
+  position: relative;
+  width:  26em;
+  color: #c0c0c0;
+  margin-top: 10px;
+  left: 10em;
+}
+
+#info {position: relative; bottom: -0.5em; right: -9em;}
 .page-footer {
   position: relative;
   top: 35em;
