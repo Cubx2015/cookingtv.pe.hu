@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   width: 100%;
   height: 100%;
+  font-size: auto;
 }
 
 h1, h2, h3, h4 {
@@ -45,21 +46,23 @@ header.topbar {
   box-shadow: 0 2px 10px rgba(109,122,139,.1);
   transition-duration: .40s;
   border-bottom: 0.1px solid black;
+  -webkit-box-shadow: 15px 63px 94px -15px rgba(0,0,0,0.35);
+  -moz-box-shadow: 15px 63px 94px -15px rgba(0,0,0,0.35);
+  box-shadow: 15px 63px 94px -15px rgba(0,0,0,0.35);
 }
 
 .topbar:hover {
-   box-shadow: 0px 5px 28px 0px #91917A;
    opacity: 1;
 }
 div#favicon {
   position: absolute;
   top: 0px;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-right: 17px;
+  padding-top: 0.5px;
+  padding-left: 7px;
+  padding-right: 20px;
   background-color: #16a085;
   width: 80px;
-  height: 75px;
+  height: 65px;
   float: left;
   display: block;
   text-align: center;
@@ -67,7 +70,7 @@ div#favicon {
 }
 
 .favicon-btn-large {
-  width: 66px;
+  width: 64px;
   height: 64px;
 }
 
@@ -87,13 +90,11 @@ div#container {
   border-radius: 4px;
   border: 1px solid #bbb;
 }
-h1#t1 {
-  margin-top: 1.5px;
+span#t1 {
   text-align: center;
-  display: block;
   font-family: 'Acme', sans-serif;
   text-decoration: none;
-  color: #6d7a8b;
+  color:  #ef6c0 !important;
   transition-duration: .40s;
   font-size: 4em;
   cursor: alias;
@@ -105,6 +106,7 @@ h1#t1 {
   color: #7f8c8d;
   text-align: center;
   border: none;
+  margin-top: -10px;
 }
 #t3 {
   font-family: 'Lobster Two', cursive;
@@ -117,13 +119,14 @@ h1#t1 {
 #recipe {
   color: #e74c3c;
   text-align: center;
-  font-size: 40px;
+  font-size: 4em;
   font-family: 'Acme', sans-serif;
 }
 #ingredients {
   color: #d35400;
   text-align: center;
   font-size: 30px;
+  margin-top: -10px;
   font-family: 'Acme', sans-serif;
 }
 #txt1 {
@@ -135,6 +138,7 @@ h1#t1 {
   color: #d35400;
   text-align: center;
   font-size: 30px;
+    margin-top: -10px;
   font-family: 'Acme', sans-serif;
 }
 #txt2 {
@@ -142,19 +146,8 @@ h1#t1 {
   font-size: 20px;
   margin-left: 9%;
 }
-/*#footer {
-  position: relative;
-  top: 800px;
-  width: 100%;
-  padding: 25px 0;
-  font-size: .9em;
-  background-color: #f9f9f9;
-  border-top: 3px solid  #ececec;
-}*/
 
-h3#author {
-  margin-left: 10px;
-  margin-top: -4px;
-  color: #95a5a6;
-  font-family: 'Lobster Two', cursive;
+.page-footer {
+  position: relative;
+  top: 35em;
 }

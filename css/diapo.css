@@ -1,6 +1,10 @@
 .slider.fullscreen {
-  top: 77px;
+  top: 62px;
   z-index: 0;
   opacity: 0.9;
   filter: alpha(opacity=90);
+}
+
+.materialboxed {
+  z-index: 10000;
 }
