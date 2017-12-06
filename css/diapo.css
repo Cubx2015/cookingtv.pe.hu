@@ -1,20 +1,7 @@
 .slider.fullscreen {
-<<<<<<< HEAD
   top: 0px;
   z-index: 0;
   opacity: 0.9;
   filter: alpha(opacity=90);
   min-width: 100%;
 }
-
-=======
-  top: 62px;
-  z-index: 0;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-}
-
-.materialboxed {
-  z-index: 10000;
-}
->>>>>>> 6b0c77100e414587866c99aaa8eb0fc816d7ae9d
